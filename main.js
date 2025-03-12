@@ -27,7 +27,7 @@ function renderCategories(data)
         }); 
 }
 
-function selectCategory(domObj) 
+function selectCategory(domObj)  
 {
     //console.log(domObj.innerText);
     renderCards(domObj.innerText)   
